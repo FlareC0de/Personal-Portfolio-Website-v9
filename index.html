@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mquery.css">
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+<body>
+    <!-- website header -->
+    <header>
+        <div class="container">
+            <a href="#" class="logo"> <span>C</span>reative</a>
+
+            <div id="hamb" class="hamb">
+                <span id="top"></span>
+                <span id="mid"></span>
+                <span id="bottom"></span>
+            </div>
+        </div>
+    </header>
+  <!-- responsive navigation -->
+    <div class="nav">
+        <ul id="nav_menu" class="nav_menu">
+            <li class="nav_list">
+                <a href="#home" class="nav_link">Home</a>
+            </li>
+
+            <li class="nav_list">
+                <a href="#about" class="nav_link">About</a>
+            </li>
+
+            <li class="nav_list">
+                <a href="#skills" class="nav_link">Skills</a>
+            </li>
+
+            <li class="nav_list">
+                <a href="#portfolio" class="nav_link">Portfolio</a>
+            </li>
+
+            <li class="nav_list">
+                <a href="#testimonies" class="nav_link">Testimonies</a>
+            </li>
+
+            <li class="nav_list">
+                <a href="#awards" class="nav_link">Awards</a>
+            </li>
+
+            <li class="nav_list">
+                <a href="#contacts" class="nav_link">Contacts</a>
+            </li>
+
+        </ul>
+    </div>
+  <!-- main ----------//---------- -->
+  <main>
+
+    <!-- website hero section ----------//---------- -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero_description">
+                <span id="hero_top">Hey Y'all</span>
+                <h1 class="hero_title">Carla Miller <br> Web Builder</h1>
+
+                <p class="hero_text">Make websites for your personal use, visual, exquisite, and promotive</p>
+
+                <div class="action">
+                    <a href="#" class="btn btn-round">Reach Out <i class="lni lni-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <img src="img/hero2.jpg" alt="" class="hero_img">
+        </div>
+    </section>
+    <!-- website about section markup ----------//---------- -->
+    <article id="about" class="About">
+        <div class="container">
+
+            <div class="group_text">
+                <p class="group_text">
+                    <img src="img/line.svg" alt=""> What do I do?
+                </p>
+
+                <h2 class="group_title">
+                    I'm a profecient web designer creating digital masterpieces and meeting buyers requests. 
+                </h2>
+            </div>
+
+            <div class="about_right">
+                <p class="about_right-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae quaerat commodi id voluptatem possimus quos veniam! Placeat vel voluptatem accusantium, voluptatum minima dicta. Mollitia, aspernatur nesciunt vitae esse illum sit!
+                </p>
+
+                <p class="about_right-text-bottom">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, porro?
+                </p>
+
+                <a href="#" class="btn">About</a>
+            </div>
+        </div>
+    </article>
+    <!-- skill section markup ----------//---------- -->
+    <section id="skills" class="Skills">
+
+        <div class="container">
+
+            <div class="group_text">
+                <p class="group_top">
+                    <img src="img/line.svg" alt=""> My Skills
+                </p>
+
+                <h2 class="group_title">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, voluptas similique.
+                </h2>
+            </div>
+
+            <div class="skills_right">
+                <p class="skills_text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque consequuntur pariatur maiores ad unde obcaecati hic mollitia non nobis ratione, porro, voluptates nulla laborum ut quo at aspernatur repellendus voluptatibus.
+                </p>
+
+                <ul class="skills_group">
+                    <li>
+                        <p>Design</p>
+                        <span class="bar"> <span class="Design"></span></span>
+                    </li>
+
+                    <li>
+                        <p>Creativity</p>
+                        <span class="bar"> <span class="Creativity"></span></span>
+                    </li>
+
+                    <li>
+                        <p>Timing</p>
+                        <span class="bar"> <span class="Timing"></span></span>
+                    </li>
+
+                    <li>
+                        <p>Productivity</p>
+                        <span class="bar"> <span class="Productivity"></span></span>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+
+    </section>
+    <!-- portfolio section markup ----------//---------- -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+
+            <div class="group_text">
+                <p class="group_top">
+                    <img src="img/line.svg" alt=""> Portfolio
+                </p>
+
+                <h2 class="group_title">Latest Projects</h2>
+
+            </div>
+
+            <div class="portfolio_filter">
+                <ul class="portfolio_filter-nav">
+                    <li data-filter="*">All</li>
+                    <li data-filter=".web">Web</li>
+                    <li data-filter=".branding">Branding</li>
+                    <li data-filter=".magazines">Magazines</li>
+                    <li data-filter=".package">Package</li>
+                </ul>
+            </div>
+
+            <div class="portfolio_gallery">
+                <a href="#" data-order="1" class="mix item magazines ">
+                    <img src="img/Portfolio/portfolio-2.png" alt="">
+                </a>
+                <a href="#" data-order="2" class="mix item web">
+                    <img src="img/Portfolio/portfolio-3.png" alt="">
+                </a>
+                <a href="#" data-order="3" class="mix item package">
+                    <img src="img/Portfolio/portfolio-5.png" alt="">
+                </a>
+                <a href="#" data-order="4" class="mix item magazines">
+                    <img src="img/Portfolio/portfolio-8.png" alt="">
+                </a>
+                <a href="#" data-order="5" class="mix item package">
+                    <img src="img/Portfolio/portfolio-4.png" alt="">
+                </a>
+                <a href="#" data-order="6" class="mix item branding">
+                    <img src="img/Portfolio/portfolio-6.png" alt="">
+                </a>
+                <a href="#" data-order="7" class="mix item web">
+                    <img src="img/Portfolio/portfolio-1.png" alt="">
+                </a>
+                <a href="#" data-order="8" class="mix item magazines">
+                    <img src="img/Portfolio/portfolio-7.png" alt="">
+                </a>
+                <a href="#" data-order="9" class="mix item branding">
+                    <img src="img/Portfolio/portfolio-9.png" alt="">
+                </a>
+            </div>
+
+            <div class="action">
+                <a href="#" class="btn">View all works</a>
+            </div>
+        </div>
+    </section>
+    <!-- testimonials section markup ----------//---------- -->
+    <section id="testimonies" class="testimonies">
+        <div class="container">
+            <div class="testimonies_person">
+                <img src="img/testimonial2.jpg" alt="">
+            </div>
+
+            <div class="testimonies_right">
+                <div class="group_text">
+                    <p class="group_top">
+                        <img src="img/line.svg" alt=""> Testimonies
+                    </p>
+                </div>
+
+                <p class="testimonies_text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, nisi sit cum aliquid aspernatur aperiam facilis fugit vitae earum laboriosam dolor nam qui deleniti! Ea voluptatibus provident beatae inventore nisi.
+                    Vero, odit itaque aspernatur ad sed earum blanditiis doloribus. Cum id itaque error eum similique eaque quisquam at delectus repudiandae dolorum ipsum quam autem blanditiis asperiores debitis, sed, earum labore!
+                </p>
+                <h4 class="person_name">Janis Miguel</h4>
+                <span class="person_postion">CFO</span>
+            </div>
+        </div>
+    </section>
+    <!-- awards section markup ----------//---------- -->
+    <section id="awards" class="awards">
+        <div class="container">
+            <div class="group_text">
+                <p class="group_top">
+                    <img src="img/line.svg" alt="">Awards
+                </p>
+
+                <h2 class="group_title">
+                    Awards & Recognition
+                </h2>
+            </div>
+
+            <div class="awards_categories">
+                <a href="https://www.inc.com" target="_blank">
+                    <span class="head">Web Programmer</span>
+                    <span class="desc">Lorem, ipsum.</span>
+                </a>
+                <a href="https://www.inc.com" target="_blank">
+                    <span class="head">Web Designer</span>
+                    <span class="desc">Lorem ipsum dolor sit.<span>
+                </a>
+                <a href="https://www.inc.com" target="_blank">
+                    <span class="head">Social Media Influencer</span>
+                    <span class="desc">Lorem ipsum dolor sit amet.</span>
+                </a>
+                <a href="https://www.inc.com" target="_blank">
+                    <span class="head">NFT Creator</span>
+                    <span class="desc">Lorem ipsum dolor sit amet.</span>
+                </a>
+                <a href="https://www.inc.com" target="_blank">
+                    <span class="head">Data Collector</span>
+                    <span class="desc">Lorem ipsum dolor sit amet.</span>
+                </a>
+                <a href="https://www.inc.com" target="_blank">
+                    <span class="head">Machine Leaner</span>
+                    <span class="desc">Lorem ipsum dolor sit amet.</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- footer section markup ----------//---------- -->
+    <footer id="contacts" class="contact">
+        <div class="container">
+            <div class="group_text">
+                <h2 class="group_title">
+                    Wanna Find Something New?
+                </h2>
+            </div>
+
+            <p class="contact_text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+            <a href="mailto:German.town@gmail.com" class="mail">Send Email</a>
+
+            <div class="social">
+                <a href="#"><i class="lni lni-twitter-fill"></i>twitter</a>
+                <a href="#"><i class="lni lni-facebook-fill"></i>facebook</a>
+                <a href="#"><i class="lni lni-instagram-fill"></i>instagram</a>
+            </div>
+        </div>
+    </footer>
+  </main>
+
+  <!-- adding mixitup js files for portfolio filtering -->
+  <script src="mixitup.min.js"></script>
+  <!-- adding custom JavaScript file -->
+
+
+
+
+
+
+
+  <script src="main.js"></script>
+</body>
+</html>

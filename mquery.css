@@ -1,0 +1,60 @@
+@media screen and (max-width: 825px) {
+  /* decrease hero text sizes  */
+  .hero{
+    
+    height: auto;
+    
+
+}
+.hero_title{
+  font-size: 40px;
+  margin: 30px 0;
+}
+}
+
+@media screen and (max-width: 700px) {
+  /* decrease hero padding  */
+  .hero{
+    padding: 150px 0 150px;
+}
+  /* separate hero image and text  */
+  .hero_description{
+    width: 100%;
+    order: 2;
+}
+.hero_title{
+  font-size: 32px;
+}
+.hero_img{
+  width: 60%;
+  order: 1;
+}
+  /* adding design for about, skills, portfolio, testimonials section  */
+  .About, .Skills, .portfolio, .testimonies, .awards, .contact{
+    padding: 80px 0;
+}
+.About .container, .Skills .container, .testimonies .container{
+    
+    grid-template-columns: 1fr;
+}
+  /* portfolio project section break */
+  .portfolio_gallery{
+    -webkit-column-count: 2;
+    column-count: 2;
+    
+}
+  /* decrease testimonials image size  */
+  .testimonies .container{
+    gap: 42px;
+}
+.testimonies_person{
+  text-align: center;
+}
+.testimonies_person img{
+  width: 70%;
+}
+  /* awards section style  */
+  .awards_categories{
+    grid-template-columns: repeat(2, 1fr);
+}
+}
